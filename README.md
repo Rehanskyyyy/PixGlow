@@ -17,4 +17,4 @@ Upload your image, hit the "Do Magic" button, and watch it transform. While ther
 - Tailwind CSS
 
 ## Demo
-- 
+- https://pix-glow.vercel.app/
