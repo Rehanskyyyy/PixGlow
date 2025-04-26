@@ -3,7 +3,7 @@ import React from 'react';
 const EnhancedImage = (props) => {
     return (
         <div>
-            <div className="container bg-white shadow-2xl h-[300px] w-[300px] sm:h-[350px] sm:w-[350px] md:h-[390px] md:w-[390px] rounded-md overflow-hidden flex flex-col mb-12">
+            <div className="container bg-white shadow-2xl h-[300px] w-[300px] sm:h-[350px] sm:w-[350px] md:h-[390px] md:w-[390px] rounded-md overflow-hidden flex flex-col sm:mb-0 mb-12">
                 <div className='flex items-center'>
                     <h1 className={`text-white text-center font-medium py-1 bg-blue-950 w-full rounded-t-md text-sm sm:text-base ${props.src ? 'rounded-r-none' : ''}`}>
                         Enhanced Image
